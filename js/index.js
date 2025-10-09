@@ -79,31 +79,28 @@ function loadContent() {
     // Get the language from localStorage
     const lang = localStorage.getItem('lang') || 'ar'; // Default to 'ar' if no language is set
 
-    // Define the file path based on the language
-    var elements;
+    // Set direction and language class on html element
     var sectionsDirection = document.querySelectorAll(".language_directed_section")
     var direction;
-    if (lang === 'ar'){
-        elements = document.querySelectorAll(".EN")
-        direction = 'rtl'
-    }else{
-        elements = document.querySelectorAll(".AR")
+    
+    if (lang === 'en'){
+        // English selected - add class to show English, hide Arabic
+        document.documentElement.classList.add('lang-en');
         direction = 'ltr'
+    } else {
+        // Arabic is default - no class needed (CSS handles it)
+        document.documentElement.classList.remove('lang-en');
+        direction = 'rtl'
     }
-    for (var element of elements){
-        element.style.display = "none"
-    }
+    
     for (var section of sectionsDirection){
         section.style.direction = direction
     }
 
-
     document.getElementById("content").style.display = 'block'
     try{
         document.querySelector("#portfolio .active").click()
-
     }catch{}
-
 
     const hash = window.location.hash.substring(1); // Get the fragment without the '#'
     if (hash) {

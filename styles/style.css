@@ -40,10 +40,32 @@ body#content{
 }
 .AR{
     font-family: "El Messiri", sans-serif;
-
 }
 .EN{
     font-family: "Montserrat", sans-serif;
+    display: none !important; /* Hide English by default, show Arabic */
+}
+
+/* When English is selected, show English and hide Arabic */
+html.lang-en .EN {
+    display: block !important;
+}
+html.lang-en .AR {
+    display: none !important;
+}
+
+/* Handle inline elements (span, a, etc.) */
+html.lang-en span.EN,
+html.lang-en a.EN {
+    display: inline !important;
+}
+span.AR,
+a.AR {
+    display: inline !important;
+}
+html.lang-en span.AR,
+html.lang-en a.AR {
+    display: none !important;
 }
 
 /* -------------------- Nav Bar -------------------- */
