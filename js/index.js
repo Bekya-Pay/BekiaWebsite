@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     const lazySections = document.querySelectorAll('[data-lazy]');
 
-    // Intersection Observer options
+    // Intersection Observer options - increased rootMargin for earlier loading
     const observerOptions = {
         root: null,
-        rootMargin: "0px",
+        rootMargin: "50px", // Start loading 50px before the section enters viewport
         threshold: 0.1 // Trigger when 10% of the element is visible
     };
 
@@ -29,6 +29,23 @@ document.addEventListener("DOMContentLoaded", function() {
     lazySections.forEach(section => {
         sectionObserver.observe(section);
     });
+
+    // Performance monitoring (optional - can be removed in production)
+    if (window.performance && window.performance.timing) {
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                const perfData = window.performance.timing;
+                const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
+                const connectTime = perfData.responseEnd - perfData.requestStart;
+                const renderTime = perfData.domComplete - perfData.domLoading;
+                
+                console.log('%c⚡ Performance Metrics:', 'color: #4CAF50; font-weight: bold; font-size: 14px;');
+                console.log('%cPage Load Time: ' + (pageLoadTime / 1000).toFixed(2) + 's', 'color: #2196F3;');
+                console.log('%cConnect Time: ' + (connectTime / 1000).toFixed(2) + 's', 'color: #2196F3;');
+                console.log('%cRender Time: ' + (renderTime / 1000).toFixed(2) + 's', 'color: #2196F3;');
+            }, 0);
+        });
+    }
 });
 
 // function isIphoneOrFallback() {
