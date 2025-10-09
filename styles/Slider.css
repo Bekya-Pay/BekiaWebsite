@@ -92,3 +92,9 @@
   background-color: #fff;
   width: 2rem;
 }
+
+
+
+.swiper-wrapper{
+  align-items: center;
+}
