@@ -115,9 +115,33 @@ nav .dropDown ul{
     color: var(--dark-color);
     width: max-content;
     height: max-content;
-
     padding: 5px;
+    left: 0; /* Default for Arabic (RTL) - align to left */
 }
+
+/* English (LTR): Dropdown should align to right */
+html.lang-en nav .dropDown ul {
+    left: auto;
+    right: 0;
+}
+
+/* Special handling for language button - preserve flex layout */
+/* Default (Arabic): Show AR button with flex, hide EN button */
+nav .langButton a.AR {
+    display: flex !important;
+}
+nav .langButton a.EN {
+    display: none !important;
+}
+
+/* English selected: Show EN button with flex, hide AR button */
+html.lang-en nav .langButton a.EN {
+    display: flex !important;
+}
+html.lang-en nav .langButton a.AR {
+    display: none !important;
+}
+
 nav .dropDown:hover ul{
     display: flex;
 }
@@ -962,7 +986,7 @@ nav .btn:hover {
     padding-bottom: 50px;
 }
 #Schedule img{
-    max-width: 400px;
+    max-width: 600px;
 }
 #Schedule .text{
     min-width: 220px;
@@ -979,13 +1003,18 @@ nav .btn:hover {
     #Schedule .text{
         text-align: center;
     }
+    #Schedule .text .DownloadButton{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
 }
-@media (max-width:570px) {
+/* @media (max-width:570px) {
     #Schedule img{
     
         width: 300px;
     }    
-}
+} */
 /* -------------------- Testimonial -------------------- */
 #Testimonials{
     /* height: 100vh; */
@@ -1061,7 +1090,9 @@ nav .btn:hover {
 
 #Soon .mainPic{
     z-index: 99;
-    width: 60%;
+    height: auto;
+    width: 100%;
+    max-width: 1500px;
 }
 
 #Soon .DownloadButtons{

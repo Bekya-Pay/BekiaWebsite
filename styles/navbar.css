@@ -48,25 +48,30 @@ nav .nav-items-mob{
     justify-content: space-evenly;
     align-items: center; 
     flex-direction: column;
-    height: calc(100vh - 127px);
+    /* height: calc(100vh - 127px); */
+    height: max-content;
     position: absolute;
     border-radius: 10px;
     font-size: 25px;
-
-
-
-
     width: max-content;
-    right: 10%;
-    top: 105px;
+    left: 10%; /* Default for Arabic (RTL) - align to left */
+    top: 62px;
     padding: 10px 20px;
 }
 
+/* English (LTR): Mobile menu should align to right */
+html.lang-en nav .nav-items-mob {
+    left: auto;
+    right: 10%;
+}
 
+nav .nav-items-mob li{
+    padding: 10px 0;
+}
 
 /*---------------------------*/
 
-@media only screen and (min-width: 1370px) {
+@media only screen and (min-width: 1450px) {
     nav .bar{
         display: none;
     }
@@ -75,7 +80,7 @@ nav .nav-items-mob{
     }
 }
 
-@media only screen and (max-width: 1370px) {
+@media only screen and (max-width: 1450px) {
     nav .nav-items{
         display: none;
     }
@@ -84,14 +89,15 @@ nav .nav-items-mob{
 
 @media only screen and (max-width:650px) {
     nav .nav-items-mob{
-        /* width: max-content;
-        right: 10%;
-        top: 105px;
-        padding: 10px 20px; */
         width: 98%;
-        right: 8px;
-        top: 122px;
         left: 8px;
+        right: 8px;
+        top: 70px;
     }
     
+    /* English (LTR): Keep centered with both left and right */
+    html.lang-en nav .nav-items-mob {
+        left: 8px;
+        right: 8px;
+    }
 }
