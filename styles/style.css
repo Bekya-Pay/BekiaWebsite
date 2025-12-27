@@ -848,8 +848,8 @@ nav .btn:hover {
     background-color: var(--light-color);
 }
 #Team .teamRow .dm-flip-card .dm-front-card .teamMemberContainer img{
-    width: 100%;
-    margin-top: 30px;
+    width: 110%;
+    /* margin-top: 30px; */
 }
 #Team .teamRow .dm-flip-card .dm-front-card span{
     font-weight: bolder;
