@@ -1,0 +1,59 @@
+[
+  {
+    "type": "text",
+    "tag": "h1",
+    "en": "Our Team Members",
+    "ar": "فريقنا"
+  },
+  {
+    "type": "img",
+    "src": "/images/Team 2.jpeg",
+    "alt": ""
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "en": "Omar",
+    "ar": "عمر"
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "en": "Leading strategic initiatives, transformation, sales, partnerships, and cost reduction. Ensuring that the company continues to expand its impact and reach.",
+    "ar": "قيادة المبادرات الاستراتيجية والتحول والمبيعات والشراكات وخفض التكاليف. ضمان استمرار الشركة في توسيع تأثيرها ونطاقها."
+  },
+  {
+    "type": "img",
+    "src": "/images/Team 3.png",
+    "alt": ""
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "en": "Hamdy",
+    "ar": "حمدي"
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "en": "With his expertise in operations and logistics, oversees the efficient execution of our recycling and waste management process.",
+    "ar": "بفضل خبرته في العمليات والخدمات اللوجستية، يشرف على التنفيذ الفعال لعملية إعادة التدوير وإدارة المخلفات لدينا."
+  },
+  {
+    "type": "img",
+    "src": "/images/Team 1.jpg",
+    "alt": ""
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "en": "Ebrahim",
+    "ar": "ابراهيم"
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "en": "Leads our mission, driving innovation and growth in sustainable recycling and waste management.",
+    "ar": "يقود مهمتنا، ويقود الابتكار والنمو في إعادة التدوير المستدام وإدارة النفايات."
+  }
+]

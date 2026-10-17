@@ -1,0 +1,326 @@
+[
+  {
+    "type": "text",
+    "tag": "h1",
+    "en": "FAQ",
+    "ar": "أسئلة شائعة"
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "1- يعني إيه بيكيا باي؟",
+    "en": "1- What is BekyaPay?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "بيكيا باي هي شركة ناشئة بتستخدم التكنولوجيا علشان تطور من منظومة إعادة التدوير وإدارة المخلفات في مصر. بنربط بين الأفراد والشركات وبين خدمات إعادة التدوير، وهدفنا هو الحفاظ على البيئة وتقليل المخلفات من خلال حلول ذكية وتشجيع الناس.",
+    "en": "BekyaPay is a startup that uses technology to advance the recycling and waste management system in Egypt. We connect individuals and companies with recycling services, aiming to protect the environment and reduce waste through smart solutions and by encouraging people."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "2- إيه هي أنظمة التعامل المتاحة عندكم؟",
+    "en": "2- What service systems do you offer?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "عندنا نظامين تقدري تختاري منهم:",
+    "en": "We have two systems to choose from:"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "نظام حالاً ♻️: المندوب بييجيلك يجمع المخلفات مفصولة، وبنحسب قيمتها وبنحولك فلوسها فوراً بعد الاستلام على محفظتك الإلكترونية أو إنستا باي (InstaPay).",
+    "en": "Halan ♻️ system: The agent comes to collect your sorted waste, we calculate its value, and transfer the money straight to your e-wallet or InstaPay right after pickup."
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "نظام تحويش ♻️: المندوب بييجيلك على مدار زيارات يجمع المخلفات مفصولة، والكميات بتتسجل على التطبيق أول بأول. بعد الزيارة الرابعة، بنحسب إجمالي المبلغ وبنحولهولك على المحفظة أو إنستا باي، بس بسعر أعلى من نظام \"حالاً\".",
+    "en": "Tahweesh ♻️ system: The agent visits you over multiple trips to collect sorted waste, with the quantities logged in the app each time. After the 4th visit, we calculate the total amount and transfer it to your wallet or InstaPay, at a higher price than the \"Halan\" system."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "3- إزاي بحدد ميعاد الزيارة؟",
+    "en": "3- How do I schedule a visit?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "من خلال تطبيق بيكيا باي، بتختاري الميعاد المناسب ليكي وبتأكدي الطلب والمندوب يوصلك لحد باب البيت.",
+    "en": "Through the BekyaPay app, you choose the time that suits you, confirm the request, and the agent will come to your doorstep."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "4- إيه أقل كمية مخلفات ينفع أعمل بيها أوردر؟",
+    "en": "4- What's the minimum amount of waste I can place an order for?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "أقل كمية للاستلام هي 5 كيلو من المخلفات المتنوعة.",
+    "en": "The minimum pickup quantity is 5 kg of mixed waste."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "5- طب لو مجمعتش الـ 5 كيلو؟",
+    "en": "5- What if I haven't collected 5 kg yet?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "عادي جداً، تقدري تحوشي وتجمعي المخلفات لحد ما توصلي للحد الأدنى (5 كيلو)، وبعدها تحجزي ميعاد الزيارة.",
+    "en": "No problem at all — you can keep gathering waste until you reach the minimum (5 kg), then book your visit."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "6- هو المندوب بيكون معاه ميزان؟",
+    "en": "6- Does the agent bring a scale?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "أيوة، المندوب بييجي ومعاه ميزان علشان يوزن المخلفات قدامك وقت الاستلام.",
+    "en": "Yes, the agent brings a scale to weigh the waste in front of you at pickup time."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "7- هل فيه أي مصاريف إدارية أو رسوم للزيارة والاستلام؟",
+    "en": "7- Are there any administrative fees or charges for the visit and pickup?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "لا خالص، الخدمة مجانية تماماً ومفيش أي مصاريف إضافية على العميل.",
+    "en": "No, not at all — the service is completely free with no extra charges for the customer."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "8- إزاي هستلم فلوسي؟",
+    "en": "8- How will I receive my money?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "الفلوس بتتحول ليكي عن طريق:",
+    "en": "The money is transferred to you through:"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "المحفظة الإلكترونية (فودافون كاش، اتصالات كاش، إلخ..)",
+    "en": "E-wallet (Vodafone Cash, Etisalat Cash, etc.)"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "إنستا باي (InstaPay)",
+    "en": "InstaPay"
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "9- طب لو معنديش محفظة إلكترونية أعمل إيه؟",
+    "en": "9- What if I don't have an e-wallet?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "تقدري تستخدمي حساب إنستا باي الخاص بأي حد من عائلتك، ولو مفيش أي وسيلة تحويل متاحة، كلمي خدمة العملاء وهما هيساعدوكي تلاقي حل.",
+    "en": "You can use an InstaPay account belonging to a family member, and if no transfer method is available at all, contact customer service and they'll help you find a solution."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "10- هي الفلوس بتتحول إمتى بالظبط؟",
+    "en": "10- Exactly when is the money transferred?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "في نظام \"حالاً\": الفلوس بتتحول بعد الاستلام مباشرة.",
+    "en": "In the \"Halan\" system: the money is transferred right after pickup."
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "في نظام \"تحويش\": الفلوس بتتحول بعد الزيارة الرابعة لما نقفل الدورة.",
+    "en": "In the \"Tahweesh\" system: the money is transferred after the 4th visit, once the cycle closes."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "11- إزاي أعرف أسعار المخلفات؟",
+    "en": "11- How do I find out waste prices?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "تقدري تشوفي الأسعار أول بأول وتعرفي كل التحديثات من جوه الأبلكيشن أو من خلال خدمة العملاء.",
+    "en": "You can check prices as they update and stay informed through the app or by contacting customer service."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "12- هل الأسعار دي ثابتة ولا بتتغير؟",
+    "en": "12- Are these prices fixed or do they change?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "الأسعار ممكن تتغير حسب نوع المخلفات وتغيرات السوق، وديماً الأسعار الحالية والجديدة بتكون واضحة على التطبيق في جزئية \"الاسعار\".",
+    "en": "Prices may change depending on the type of waste and market shifts, and the current and new prices are always shown clearly in the app's \"Prices\" section."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "13- إيه هي أنواع المخلفات اللي بتستلموها؟",
+    "en": "13- What types of waste do you collect?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "بنستلم كل المخلفات الصلبة (الغير خطرة) القابلة لإعادة التدوير، والأنواع دي كلها متوضحة بالتفصيل جوه الأبلكيشن في جزئية \"بنجمع ايه\".",
+    "en": "We collect all recyclable solid (non-hazardous) waste, and all these types are detailed inside the app in the \"What We Collect\" section."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "14- هل بتاخدوا الأجهزة الكهربائية أو الإلكترونية؟",
+    "en": "14- Do you accept electrical or electronic appliances?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "حضرتك تقدري تبعتيلنا صور الجهاز علشان نقيمه، وبعد المراجعة هنبلغك بالسعر وهل ينفع نستلمه ولا لأ.",
+    "en": "You can send us photos of the appliance for evaluation, and after reviewing it we'll let you know the price and whether we can accept it."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "15- لازم أفرز المخلفات قبل ما المندوب ييجي؟",
+    "en": "15- Do I need to sort the waste before the agent arrives?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "يفضل طبعاً تفرزيها حسب نوعها، ده بيسهل وييسر عملية الوزن والاستلام وبيخلي الخدمة أسرع.",
+    "en": "It's preferable to sort it by type, as this makes weighing and pickup easier and keeps the service faster."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "16- ينفع أغير رقم الموبايل بتاعي على التطبيق؟",
+    "en": "16- Can I change my mobile number on the app?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "أيوة، كلمي خدمة العملاء وقوليلهم الرقم القديم والجديد وهما هيعدلوهولك.",
+    "en": "Yes, contact customer service with your old and new number and they'll update it for you."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "17- ينفع أغير ميعاد الزيارة بعد ما أكدته؟",
+    "en": "17- Can I change the visit time after confirming it?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "أيوة، تقدري تعدلي الميعاد من على الأبلكيشن أو بتواصلك مع خدمة العملاء قبل ميعاد الزيارة.",
+    "en": "Yes, you can update the appointment from the app or by contacting customer service before the visit time."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "18- ينفع ألغي الأوردر خالص؟",
+    "en": "18- Can I cancel the order entirely?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "أيوة، ينفع تلغي الطلب عادي بس بشرط يكون قبل ميعاد الزيارة.",
+    "en": "Yes, you can cancel the order normally, as long as it's before the visit time."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "19- ينفع حد تاني يسلم المندوب المخلفات بدالي؟",
+    "en": "19- Can someone else hand the waste to the agent instead of me?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "أيوة ينفع، المهم إن المخلفات تكون موجودة في المكان المتفق عليه وقت الاستلام.",
+    "en": "Yes, that's fine, as long as the waste is at the agreed location at pickup time."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "20- هعمل إيه لو المندوب اتأخر عليا؟",
+    "en": "20- What do I do if the agent is late?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "كلمي خدمة العملاء وادينا رقم الطلب (الأوردر)، وهنتابعلك حالة الزيارة فوراً.",
+    "en": "Contact customer service and give us your order number, and we'll follow up on the visit status right away."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "21- إيه هي المحافظات اللي بيكيا باي شغالة فيها؟",
+    "en": "21- Which governorates does BekyaPay operate in?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "تقدري تعرفي المحافظات والمناطق المتاحة حالياً من خلال الأبلكيشن أو بإنك تسألي خدمة العملاء.",
+    "en": "You can find out the currently available governorates and areas through the app or by asking customer service."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "22- بيكيا باي بتخدم الشركات والمحلات ولا أفراد بس؟",
+    "en": "22- Does BekyaPay serve companies and shops, or only individuals?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "أيوة بنخدم الشركات والمحلات والمخازن كمان. لو عندك شركة أو محل، كل اللي عليك تبعتيلنا:",
+    "en": "Yes, we also serve companies, shops, and warehouses. If you have a company or shop, just send us:"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "الاسم - رقم الموبايل - المحافظة والمنطقة - نوع المخلفات اللي عندك",
+    "en": "Name - Phone number - Governorate and area - Type of waste you have"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "والفريق المختص بيتواصل معاكي فوراً.",
+    "en": "Our specialized team will then contact you right away."
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "ar": "23- إزاي أقدر أتواصل مع خدمة العملاء؟",
+    "en": "23- How can I contact customer service?"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "ar": "تقدري تتواصلي معانا من خلال رسائل الصفحة، أو عن طريق وسائل التواصل اللي موجودة جوه الأبلكيشن.",
+    "en": "You can reach us through the page messages, or via the contact channels available inside the app."
+  }
+]

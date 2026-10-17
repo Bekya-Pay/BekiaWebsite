@@ -1,0 +1,399 @@
+[
+  {
+    "type": "text",
+    "tag": "h1",
+    "en": "Events We participated in",
+    "ar": "فعاليات شاركنا بها"
+  },
+  {
+    "type": "img",
+    "src": "/images/forbes.jpeg",
+    "alt": "Forbes 30 Under 30"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Forbes 30 Under 30",
+    "ar": "فوربس 30 تحت 30"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Forbes 30 Under 30",
+    "ar": "فوربس 30 تحت 30"
+  },
+  {
+    "type": "img",
+    "src": "/images/ourteam.jpeg",
+    "alt": "EA"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "EA",
+    "ar": "EA"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "EA",
+    "ar": "EA"
+  },
+  {
+    "type": "img",
+    "src": "/images/Shell_Intilaaqah_Award.jpg",
+    "alt": "Shell Intilaaqah Award - 2nd Place Winner EGP 125,000"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Shell Intilaaqah Egypt Annual Award 2024",
+    "ar": "جائزة شل انطلاقة مصر السنوية 2024"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "2nd Place Winner - EGP 125,000",
+    "ar": "المركز الثاني - 125,000 جنيه"
+  },
+  {
+    "type": "img",
+    "src": "/images/Green_Growth_Accelerator.jpg",
+    "alt": "First Green Growth Accelerator"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "First Green Growth Accelerator",
+    "ar": "مسرع النمو الأخضر الأول"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Banque Misr & Go Green",
+    "ar": "بنك مصر وجو جرين"
+  },
+  {
+    "type": "img",
+    "src": "/images/Youth_Summit_Award.jpg",
+    "alt": "Youth Summit Award - EGP 1,000,000"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Youth Summit: The Leap Edition",
+    "ar": "قمة الشباب: إصدار القفزة"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Winner - EGP 1,000,000",
+    "ar": "الفائز - 1,000,000 جنيه"
+  },
+  {
+    "type": "img",
+    "src": "/images/Arab_Youth_Forum.jpg",
+    "alt": "Arab Youth Entrepreneurship Forum"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Arab Youth Entrepreneurship Forum",
+    "ar": "منتدى ريادة الأعمال العربي للشباب"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "5th Edition - EGP 7,000",
+    "ar": "الإصدار الخامس - 7,000 جنيه"
+  },
+  {
+    "type": "img",
+    "src": "/images/Edafa.jpg",
+    "alt": "Edafa Event"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Edafa",
+    "ar": "إضافة"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Omar Saleh - Co-Founder Presentation",
+    "ar": "عمر صالح - عرض المؤسس المشارك"
+  },
+  {
+    "type": "img",
+    "src": "/images/Eco_Champions_Program.jpg",
+    "alt": "Eco Champions Program"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Eco Champions Program",
+    "ar": "برنامج أبطال البيئة"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Raising Sustainability Awareness for Schools",
+    "ar": "رفع الوعي بالاستدامة للمدارس"
+  },
+  {
+    "type": "img",
+    "src": "/images/AUC_Venture_Lab.jpg",
+    "alt": "AUC Venture Lab Spring 2025"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "AUC Venture Lab",
+    "ar": "مختبر مشاريع الجامعة الأمريكية"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Spring 2025 Cohort",
+    "ar": "دفعة ربيع 2025"
+  },
+  {
+    "type": "img",
+    "src": "/images/Digital_Egypt_CREATIVA.jpg",
+    "alt": "Digital Egypt Innovation Centers Event"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Digital Egypt Innovation Centers",
+    "ar": "مراكز إبداع مصر الرقمية"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "CREATIVA - USAID Partnership",
+    "ar": "كرياتيفا - شراكة الوكالة الأمريكية للتنمية الدولية"
+  },
+  {
+    "type": "img",
+    "src": "/images/TechInvest 1.jpg",
+    "alt": "TechInvest Event"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Tech Invest",
+    "ar": "تيك إنفست"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Technology Investment Forum",
+    "ar": "منتدى الاستثمار التكنولوجي"
+  },
+  {
+    "type": "img",
+    "src": "/images/TechInvest 2.jpg",
+    "alt": "TechInvest Event"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Tech Invest",
+    "ar": "تيك إنفست"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Technology Investment Forum",
+    "ar": "منتدى الاستثمار التكنولوجي"
+  },
+  {
+    "type": "img",
+    "src": "/images/starthub 1.jpeg",
+    "alt": "Start Hub Event"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Start Hub",
+    "ar": "ستارت هاب"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Startup Hub Event",
+    "ar": "فعالية مركز الشركات الناشئة"
+  },
+  {
+    "type": "img",
+    "src": "/images/starthub 2.jpeg",
+    "alt": "Start Hub Event"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Start Hub",
+    "ar": "ستارت هاب"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Startup Hub Event",
+    "ar": "فعالية مركز الشركات الناشئة"
+  },
+  {
+    "type": "img",
+    "src": "/images/starthub 3.jpeg",
+    "alt": "Start Hub Event"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Start Hub",
+    "ar": "ستارت هاب"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Startup Hub Event",
+    "ar": "فعالية مركز الشركات الناشئة"
+  },
+  {
+    "type": "img",
+    "src": "/images/starthub 4.jpeg",
+    "alt": "Start Hub Event"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Start Hub",
+    "ar": "ستارت هاب"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Startup Hub Event",
+    "ar": "فعالية مركز الشركات الناشئة"
+  },
+  {
+    "type": "img",
+    "src": "/images/Khaliha 1.jpeg",
+    "alt": "Khaliha w Gadidha Event"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "خليها و جددها",
+    "ar": "خليها و جددها"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Sustainability & Renewal Event",
+    "ar": "فعالية الاستدامة والتجديد"
+  },
+  {
+    "type": "img",
+    "src": "/images/Khaliha 2.jpeg",
+    "alt": "Khaliha w Gadidha Event"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "خليها و جددها",
+    "ar": "خليها و جددها"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Sustainability & Renewal Event",
+    "ar": "فعالية الاستدامة والتجديد"
+  },
+  {
+    "type": "img",
+    "src": "/images/Khaliha 3.jpeg",
+    "alt": "Khaliha w Gadidha Event"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "خليها و جددها",
+    "ar": "خليها و جددها"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Sustainability & Renewal Event",
+    "ar": "فعالية الاستدامة والتجديد"
+  },
+  {
+    "type": "img",
+    "src": "/images/Khaliha 4.jpeg",
+    "alt": "Khaliha w Gadidha Event"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "خليها و جددها",
+    "ar": "خليها و جددها"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Sustainability & Renewal Event",
+    "ar": "فعالية الاستدامة والتجديد"
+  },
+  {
+    "type": "img",
+    "src": "/images/Techne 2.jpeg",
+    "alt": "Techne Summit"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Techne Summit",
+    "ar": "قمة تكني"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Technology Innovation Summit",
+    "ar": "قمة الابتكار التكنولوجي"
+  },
+  {
+    "type": "img",
+    "src": "/images/Techne 3.jpeg",
+    "alt": "Techne Summit"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Techne Summit",
+    "ar": "قمة تكني"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Technology Innovation Summit",
+    "ar": "قمة الابتكار التكنولوجي"
+  },
+  {
+    "type": "img",
+    "src": "/images/Techne 4.jpeg",
+    "alt": "Techne Summit"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Techne Summit",
+    "ar": "قمة تكني"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "Technology Innovation Summit",
+    "ar": "قمة الابتكار التكنولوجي"
+  }
+]

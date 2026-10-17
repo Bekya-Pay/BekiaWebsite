@@ -1,0 +1,280 @@
+[
+  {
+    "type": "text",
+    "tag": "h1",
+    "en": "BekyaPay",
+    "ar": "بيكيا باي"
+  },
+  {
+    "type": "text",
+    "tag": "p",
+    "en": "BekyaPay is a tech-driven startup transforming waste management in Egypt through sustainable practices. We connect businesses and individuals to efficient recycling services, our mission is to promote sustainability, reduce landfill waste, and create a cleaner environment through smart technology and community engagement.",
+    "ar": "بيكيا باي هي شركة ناشئة تعتمد على التكنولوجيا وتعمل على تحويل إدارة المخلفات في مصر من خلال ممارسات مستدامة. نحن نربط الشركات والأفراد بخدمات إعادة التدوير الفعالة، ومهمتنا هي تعزيز الاستدامة والحد من مخلفات مكبات المخلفات وخلق بيئة أنظف من خلال التكنولوجيا الذكية والمشاركة المجتمعية."
+  },
+  {
+    "type": "text",
+    "tag": "h1",
+    "en": "BekyaPay Packages",
+    "ar": "أنظمة بيكياباي المختلفة"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Tell us About Your Package With Bekya",
+    "ar": "قولنا اية نظامك مع بيكيا؟"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Tahweesh Package",
+    "ar": "نظام تحويش"
+  },
+  {
+    "type": "img",
+    "src": "/images/wallet 1.svg",
+    "alt": "Tahweesh Package"
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "en": "Your order is Recieved",
+    "ar": "يتم استلام طلبك"
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "en": "The quantity is weighed at each Period ( Every 4 visits ) during the month",
+    "ar": "ويتم وزن الكمية في كل فترة (كل 4 زيارات) خلال الشهر"
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "en": "The Bill is Calculated For The Entire Period",
+    "ar": "يتم احتساب الفاتورة للفترة بأكملها"
+  },
+  {
+    "type": "text",
+    "tag": "button",
+    "en": "Download Now",
+    "ar": "حمل الأن"
+  },
+  {
+    "type": "text",
+    "tag": "h3",
+    "en": "Halan Package",
+    "ar": "نظام حالاً"
+  },
+  {
+    "type": "img",
+    "src": "/images/cash 1.svg",
+    "alt": "Halan Package"
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "en": "Your order is Recieved",
+    "ar": "يتم استلام طلبك"
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "en": "The quantity is weighed",
+    "ar": "يتم وزن الكمية"
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "en": "Calculate through any of your wallets or the nearest transfer location to you",
+    "ar": "الحساب من خلال اي محفظتك او اقرب مكان للتحويل لديك"
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "en": "The price is fixed for the quantity",
+    "ar": "السعر موحد للكمية"
+  },
+  {
+    "type": "text",
+    "tag": "button",
+    "en": "Download Now",
+    "ar": "حمل الان"
+  },
+  {
+    "type": "text",
+    "tag": "h1",
+    "en": "Things We Collect",
+    "ar": "حاجات بتجمعها بيكيا باي"
+  },
+  {
+    "type": "img",
+    "src": "/images/Things 1.png",
+    "alt": ""
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "ar": "علب الشامبو والمسحوق",
+    "en": "Shampoo and powder containers"
+  },
+  {
+    "type": "img",
+    "src": "/images/Things 2.png",
+    "alt": ""
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "ar": "الورق والكتب",
+    "en": "Paper and books"
+  },
+  {
+    "type": "img",
+    "src": "/images/Things 3.png",
+    "alt": ""
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "ar": "علب لبن الاطفال",
+    "en": "Baby formula containers"
+  },
+  {
+    "type": "img",
+    "src": "/images/Things 4.png",
+    "alt": ""
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "ar": "النحاس",
+    "en": "Copper"
+  },
+  {
+    "type": "img",
+    "src": "/images/Things 5.png",
+    "alt": ""
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "ar": "الأجهزة والأثاث القديم والمستعملة",
+    "en": "Old and used devices and furniture"
+  },
+  {
+    "type": "img",
+    "src": "/images/Things 6.png",
+    "alt": ""
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "ar": "زجاجات المياه والزيت",
+    "en": "Water and oil bottles"
+  },
+  {
+    "type": "img",
+    "src": "/images/Things 7.png",
+    "alt": ""
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "ar": "الكنز",
+    "en": "Cans"
+  },
+  {
+    "type": "img",
+    "src": "/images/Things 8.png",
+    "alt": ""
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "ar": "الألومنيوم",
+    "en": "Aluminum"
+  },
+  {
+    "type": "img",
+    "src": "/images/Things 9.png",
+    "alt": ""
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "ar": "الحديد",
+    "en": "Iron"
+  },
+  {
+    "type": "img",
+    "src": "/images/Things 10.png",
+    "alt": ""
+  },
+  {
+    "type": "text",
+    "tag": "span",
+    "ar": "الصفائح",
+    "en": "Tin sheets"
+  },
+  {
+    "type": "text",
+    "tag": "h1",
+    "en": "Sponsors",
+    "ar": "رعاة"
+  },
+  {
+    "type": "text",
+    "tag": "h1",
+    "en": "Our Partners",
+    "ar": "شركاؤنا"
+  },
+  {
+    "type": "img",
+    "src": "/images/Eye.png",
+    "alt": "Schedule a visit"
+  },
+  {
+    "type": "text",
+    "tag": "h1",
+    "en": "Schedule a visit now",
+    "ar": "احجز زيارة الأن"
+  },
+  {
+    "type": "text",
+    "tag": "h2",
+    "en": "If you have a waste and need to get red of fill in this form",
+    "ar": "اذا كنت تملك مخلفات و تريد التخلص منها املأ الاستمارة"
+  },
+  {
+    "type": "text",
+    "tag": "button",
+    "en": "Download Now",
+    "ar": "حمل الأن"
+  },
+  {
+    "type": "text",
+    "tag": "h1",
+    "en": "What Our Clients Says",
+    "ar": "أراء عملائنا"
+  },
+  {
+    "type": "text",
+    "tag": "h1",
+    "en": "Download Now",
+    "ar": "حمله الأن"
+  },
+  {
+    "type": "img",
+    "src": "/images/Bekya.png",
+    "alt": "BekyaPay App"
+  },
+  {
+    "type": "img",
+    "src": "/images/GetOnAppStore.png",
+    "alt": "Get on App Store"
+  },
+  {
+    "type": "img",
+    "src": "/images/GetOnGooglePlay.png",
+    "alt": "Get on Google Play"
+  }
+]
