@@ -22,7 +22,7 @@ export default function Packages({ locale, index }: { locale: Locale; index: num
           <Reveal key={p.name.en} delay={i * 0.1}>
             <article className="group flex h-full flex-col rounded-3xl border border-line bg-surface p-8 transition hover:-translate-y-1 hover:shadow-xl md:p-10">
               <div className="flex items-center justify-between">
-                <h3 className="text-2xl font-semibold md:text-3xl">{t(p.name, locale)}</h3>
+                <h3 className="text-2xl md:text-3xl">{t(p.name, locale)}</h3>
                 <div className="grid size-16 place-items-center rounded-2xl bg-accent/15">
                   <Image src={asset(p.icon)} alt="" width={40} height={40} />
                 </div>

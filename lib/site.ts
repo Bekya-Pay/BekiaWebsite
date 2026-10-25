@@ -1,4 +1,8 @@
-import type { L } from "./i18n";
+import type { L, ui } from "./i18n";
+
+type NavKey = keyof typeof ui.nav;
+export type HeaderChild = { key: NavKey; href: string; external?: boolean };
+export type HeaderLink = { key: NavKey; id: string; children?: HeaderChild[] };
 
 export const site = {
   name: { ar: "بيكيا باي", en: "BekyaPay" } as L,
@@ -21,7 +25,33 @@ export const site = {
   playStore: "https://play.google.com/store/apps/details?id=com.donedl.bekyapay&pcampaignid=web_share",
 };
 
-/** Paths relative to the locale root, e.g. `/ar` + path. */
+/** Header items, in order. Each scrolls to the home-page section with the matching id. */
+export const headerLinks: HeaderLink[] = [
+  { key: "home", id: "home" },
+  {
+    key: "aboutUs",
+    id: "about",
+    children: [
+      { key: "visionMission", href: "/about/" },
+      { key: "whereWeAre", href: "/#contact" },
+      { key: "ourServices", href: "/#services" },
+    ],
+  },
+  { key: "ourServices", id: "services" },
+  { key: "impact", id: "impact" },
+  { key: "partners", id: "partners" },
+  { key: "faq", id: "faq" },
+  {
+    key: "contact",
+    id: "contact",
+    children: [
+      { key: "customerService", href: site.whatsapp, external: true },
+      { key: "jobs", href: "https://tally.so/r/WOx6XR", external: true },
+    ],
+  },
+];
+
+/** Footer company links. */
 export const navLinks = [
   { key: "services", href: "/services/" },
   { key: "about", href: "/about/" },

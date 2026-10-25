@@ -18,10 +18,10 @@ export default async function TermsPage({ params }: Props) {
       <article className="mx-auto max-w-3xl px-4 py-20 md:py-28">
         {terms.map((s, i) =>
           s.tag === "h1" ? (
-            <h2 key={i} className="mt-14 text-2xl font-semibold first:mt-0 md:text-3xl">{t(s.title, locale)}</h2>
+            <h2 key={i} className="mt-14 text-2xl first:mt-0 md:text-3xl">{t(s.title, locale)}</h2>
           ) : (
             <section key={i} className="mt-8">
-              <h3 className="text-lg font-semibold">{t(s.title, locale)}</h3>
+              <h3 className="text-lg">{t(s.title, locale)}</h3>
               {s.paragraphs.map((p, j) => (
                 <p key={j} className="mt-3 whitespace-pre-line leading-relaxed text-muted">{t(p, locale)}</p>
               ))}

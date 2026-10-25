@@ -28,7 +28,7 @@ export default async function ServicesPage({ params }: Props) {
           <section key={s.title.en} className="grid gap-10 py-20 md:grid-cols-12 md:py-28">
             <Reveal className="md:col-span-5">
               <p className="mb-4 text-sm font-medium text-accent">{String(i + 1).padStart(2, "0")}</p>
-              <h2 className="text-3xl font-semibold leading-tight tracking-tight md:text-4xl">{t(s.title, locale)}</h2>
+              <h2 className="text-3xl leading-tight md:text-4xl">{t(s.title, locale)}</h2>
             </Reveal>
             <Reveal delay={0.1} className="md:col-span-7">
               <p className="text-lg leading-relaxed text-muted">{t(s.body, locale)}</p>

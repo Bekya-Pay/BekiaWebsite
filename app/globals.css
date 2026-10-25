@@ -22,8 +22,8 @@
   --color-dark-2: var(--dark-2);
   --color-accent: var(--accent);
   --color-accent-ink: var(--accent-ink);
-  --font-sans: var(--font-inter), var(--font-plex-arabic), ui-sans-serif, system-ui, sans-serif;
-  --font-arabic: var(--font-plex-arabic), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-cairo), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-lalezar), var(--font-cairo), ui-sans-serif, system-ui, sans-serif;
   --animate-marquee: marquee 40s linear infinite;
   --animate-marquee-rtl: marquee-rtl 40s linear infinite;
 
@@ -45,8 +45,11 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-html[lang="ar"] body {
-  font-family: var(--font-arabic);
+/* Lalezar ships a single weight, so headings stay at 400 instead of a faux bold. */
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: 0;
 }
 
 ::selection {

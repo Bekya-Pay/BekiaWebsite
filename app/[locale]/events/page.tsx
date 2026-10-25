@@ -26,7 +26,7 @@ export default async function EventsPage({ params }: Props) {
                 <Image src={asset(e.img)} alt={t(e.title, locale)} fill sizes="(min-width:1024px) 33vw, (min-width:640px) 50vw, 100vw" className="object-cover transition duration-700 group-hover:scale-105" />
               </div>
               <div className="p-6">
-                <h2 className="text-lg font-semibold">{t(e.title, locale)}</h2>
+                <h2 className="text-lg">{t(e.title, locale)}</h2>
                 {t(e.subtitle, locale) !== t(e.title, locale) && <p className="mt-1 text-sm text-muted">{t(e.subtitle, locale)}</p>}
               </div>
             </article>

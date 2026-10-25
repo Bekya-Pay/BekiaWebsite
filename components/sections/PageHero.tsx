@@ -12,7 +12,7 @@ export default function PageHero({ eyebrow, title, body }: { eyebrow?: string; t
               {eyebrow}
             </p>
           )}
-          <h1 className="max-w-4xl text-4xl font-semibold leading-tight tracking-tight md:text-6xl">{title}</h1>
+          <h1 className="max-w-4xl text-4xl leading-tight md:text-6xl">{title}</h1>
           {body && <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/70">{body}</p>}
         </Reveal>
       </div>

@@ -24,7 +24,7 @@ export default function SectionHeader({
           {eyebrow}
         </p>
       )}
-      <h2 className="text-3xl font-semibold leading-tight tracking-tight md:text-5xl">{title}</h2>
+      <h2 className="text-3xl leading-tight md:text-5xl">{title}</h2>
       {body && <p className={`mt-5 text-lg leading-relaxed ${muted}`}>{body}</p>}
     </Reveal>
   );

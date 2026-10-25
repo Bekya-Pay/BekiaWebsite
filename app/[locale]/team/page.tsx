@@ -28,7 +28,7 @@ export default async function TeamPage({ params }: Props) {
               </div>
               <div className="mt-6 flex items-start justify-between gap-4">
                 <div>
-                  <h2 className="text-2xl font-semibold">{t(m.name, locale)}</h2>
+                  <h2 className="text-2xl">{t(m.name, locale)}</h2>
                   <p className="mt-2 leading-relaxed text-muted">{t(m.bio, locale)}</p>
                 </div>
                 {m.linkedin && (

@@ -12,7 +12,7 @@ export default function Footer({ locale }: { locale: Locale }) {
   ];
 
   return (
-    <footer className="bg-dark text-white">
+    <footer id="contact" className="scroll-mt-20 bg-dark text-white">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 md:grid-cols-12 md:px-8 md:py-20">
         <div className="md:col-span-4">
           <Image src="/images/logo.svg" alt="BekyaPay" width={140} height={56} />
@@ -38,7 +38,7 @@ export default function Footer({ locale }: { locale: Locale }) {
         </div>
 
         <div className="md:col-span-3">
-          <h3 className="mb-5 text-sm font-semibold text-white/50">{t(ui.nav.company, locale)}</h3>
+          <h3 className="mb-5 text-sm text-white/50">{t(ui.nav.company, locale)}</h3>
           <ul className="space-y-3">
             {navLinks.map((l) => (
               <li key={l.key}>
@@ -51,7 +51,7 @@ export default function Footer({ locale }: { locale: Locale }) {
         </div>
 
         <div className="md:col-span-5">
-          <h3 className="mb-5 text-sm font-semibold text-white/50">{t(ui.contact, locale)}</h3>
+          <h3 className="mb-5 text-sm text-white/50">{t(ui.contact, locale)}</h3>
           <ul className="space-y-4 text-white/80">
             <li className="flex gap-3">
               <Pin className="mt-0.5 shrink-0 text-accent" />

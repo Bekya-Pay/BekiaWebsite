@@ -8,7 +8,7 @@ import termsRaw from "@/content/terms.json";
 
 export const hero = {
   eyebrow: { ar: "إدارة مخلفات ذكية في مصر", en: "Smart waste management in Egypt" },
-  title: { ar: "حوّل مخلفاتك إلى قيمة", en: "Turn your waste into value" },
+  title: { ar: "حوّل مخلفاتك\nإلى قيمة", en: "Turn your waste into value" },
   body: {
     ar: "بيكيا باي شركة ناشئة تعتمد على التكنولوجيا لتطوير إدارة المخلفات في مصر. نربط الأفراد والشركات بخدمات إعادة تدوير فعالة، لنقلل مخلفات المكبات ونصنع بيئة أنظف.",
     en: "BekyaPay is a tech-driven startup transforming waste management in Egypt. We connect homes and businesses to efficient recycling services to cut landfill waste and build a cleaner environment.",
@@ -16,11 +16,22 @@ export const hero = {
 };
 
 export const stats: { value: string; label: L }[] = [
-  { value: "1,000+", label: { ar: "منزل في الإسكندرية", en: "Homes in Alexandria" } },
-  { value: "30+", label: { ar: "مؤسسة شريكة", en: "Partner institutions" } },
-  { value: "115", label: { ar: "طن تم تدويره", en: "Tons recycled" } },
-  { value: "10,000+", label: { ar: "شخص تم توعيته", en: "People educated" } },
+  { value: "50+", label: { ar: "موظف", en: "Employees" } },
+  { value: "350+", label: { ar: "طن مخلفات تم جمعها", en: "Tons of waste collected" } },
+  { value: "20+", label: { ar: "شريك", en: "Partners" } },
+  { value: "60k+", label: { ar: "منزل تم الوصول إليه", en: "Houses reached" } },
+  { value: "15+", label: { ar: "ندوة توعوية", en: "Awareness seminars" } },
+  { value: "30k", label: { ar: "طالب", en: "Students" } },
+  { value: "500", label: { ar: "طن مخلفات تم تدويرها", en: "Tons of waste recycled" } },
+  { value: "400", label: { ar: "طن CO2 تم تقليله", en: "Tons of CO2 reduced" } },
+  { value: "250", label: { ar: "جامع غير رسمي", en: "Informal collectors" } },
+  { value: "50", label: { ar: "مخزن", en: "Warehouses" } },
+  { value: "5", label: { ar: "جامعات", en: "Universities" } },
+  { value: "2", label: { ar: "مدينتان", en: "Cities" } },
 ];
+
+/** Four headline numbers for the hero strip and About page. */
+export const heroStats = [stats[1], stats[3], stats[2], stats[5]];
 
 export const packages: { name: L; icon: string; features: L[] }[] = [
   {

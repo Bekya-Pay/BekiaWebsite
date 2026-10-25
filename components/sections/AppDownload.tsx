@@ -12,7 +12,7 @@ export default function AppDownload({ locale, index }: { locale: Locale; index: 
           <p className="mb-4 text-sm font-semibold opacity-70">
             {String(index).padStart(2, "0")} — {ar ? "التطبيق" : "The app"}
           </p>
-          <h2 className="text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
+          <h2 className="text-4xl leading-tight md:text-6xl">
             {ar ? "حمّل بيكيا باي دلوقتي" : "Download BekyaPay now"}
           </h2>
           <p className="mt-5 max-w-md text-lg opacity-80">

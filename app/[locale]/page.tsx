@@ -1,6 +1,10 @@
 import AppDownload from "@/components/sections/AppDownload";
 import Collected from "@/components/sections/Collected";
 import Hero from "@/components/sections/Hero";
+import HomeAbout from "@/components/sections/HomeAbout";
+import HomeFaq from "@/components/sections/HomeFaq";
+import HomeImpact from "@/components/sections/HomeImpact";
+import HomeServices from "@/components/sections/HomeServices";
 import LogoMarquee from "@/components/sections/LogoMarquee";
 import Packages from "@/components/sections/Packages";
 import Sponsors from "@/components/sections/Sponsors";
@@ -13,25 +17,29 @@ export default async function Home({ params }: { params: Promise<{ locale: Local
   return (
     <>
       <Hero locale={locale} />
-      <Packages locale={locale} index={1} />
-      <Collected locale={locale} index={2} />
+      <HomeAbout locale={locale} index={1} />
+      <HomeServices locale={locale} index={2} />
+      <Packages locale={locale} index={3} />
+      <Collected locale={locale} index={4} />
+      <HomeImpact locale={locale} index={5} />
       <LogoMarquee
         locale={locale}
-        index={3}
+        index={6}
         source="partners"
         eyebrow={ar ? "شركاؤنا" : "Partners"}
         title={ar ? "شركاء في رحلة الاستدامة" : "Partners in sustainability"}
       />
       <LogoMarquee
         locale={locale}
-        index={4}
+        index={7}
         source="clients"
         eyebrow={ar ? "عملاؤنا" : "Clients"}
         title={ar ? "مؤسسات بتثق في بيكيا باي" : "Trusted by organizations"}
       />
-      <Testimonials locale={locale} index={5} />
+      <Testimonials locale={locale} index={8} />
       <Sponsors locale={locale} />
-      <AppDownload locale={locale} index={6} />
+      <HomeFaq locale={locale} index={9} />
+      <AppDownload locale={locale} index={10} />
     </>
   );
 }
