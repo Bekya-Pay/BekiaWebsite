@@ -33,5 +33,5 @@ jobs:
       # pm2 "website" serves /root/BekiaWebsite/out directly, so no restart is needed
       - name: Upload build
         run: |
-          rsync -az --delete-after --delay-updates out/ \
+          rsync -az --no-owner --no-group --delete-after --delay-updates out/ \
             "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:/root/BekiaWebsite/out/"
