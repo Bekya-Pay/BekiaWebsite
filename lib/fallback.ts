@@ -1,4 +1,4 @@
-import type { Partner } from "./api";
+import type { News, Partner } from "./api";
 
 /** Shown when the API is unreachable, so the section never renders empty. Mirrors the legacy site. */
 const legacyPartners: [string, string][] = [
@@ -36,3 +36,40 @@ export const fallbackPartners: Partner[] = legacyPartners.map(([logo, name], i) 
 
 /** Legacy testimonials were screenshots of reviews. */
 export const fallbackTestimonialImages = [1, 2, 3, 4].map((n) => `/images/Testimonial ${n}.png`);
+
+/** TEMP: sample posts to preview the news bar and section in dev until the news API is live. */
+export const devSampleNews: News[] = [
+  {
+    id: 1,
+    title_ar: "بيكيا تبدأ خدمة الجمع في القاهرة",
+    title_en: "Bekya starts collecting in Cairo",
+    excerpt_ar: "بعد الإسكندرية، فريقنا بقى بيجمع المخلفات القابلة للتدوير من البيوت في القاهرة. اطلب أول زيارة من التطبيق.",
+    excerpt_en: "After Alexandria, our team now picks up recyclables from homes in Cairo. Book your first visit from the app.",
+    image: "/images/Home1.jpg",
+    link: "#",
+    published_at: "2026-10-20",
+    is_featured: true,
+  },
+  {
+    id: 2,
+    title_ar: "بيكيا ضمن برنامج Green Growth Accelerator",
+    title_en: "Bekya joins the Green Growth Accelerator",
+    excerpt_ar: "اتختارنا ضمن الشركات الناشئة في البرنامج لدعم التوسع في خدمات إعادة التدوير.",
+    excerpt_en: "We were selected for the programme's startup cohort to support expanding our recycling services.",
+    image: "/images/Green_Growth_Accelerator.jpg",
+    link: "#",
+    published_at: "2026-09-12",
+    is_featured: false,
+  },
+  {
+    id: 3,
+    title_ar: "ندوات توعية في مدارس الإسكندرية",
+    title_en: "Awareness sessions in Alexandria schools",
+    excerpt_ar: "قدمنا ورش عن فرز المخلفات وإعادة التدوير لطلاب المدارس على مدار الشهر.",
+    excerpt_en: "We ran workshops on sorting and recycling waste for school students throughout the month.",
+    image: "/images/Eco_Champions_Program.jpg",
+    link: "#",
+    published_at: "2026-08-03",
+    is_featured: false,
+  },
+];

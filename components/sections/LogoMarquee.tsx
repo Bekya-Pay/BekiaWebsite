@@ -19,12 +19,15 @@ export default function LogoMarquee({
   eyebrow,
   title,
   source,
+  children,
 }: {
   locale: Locale;
   index: number;
   eyebrow: string;
   title: string;
   source: keyof typeof sources;
+  /** Extra content under the strip, e.g. the sponsors row. */
+  children?: React.ReactNode;
 }) {
   const { load, fallback } = sources[source];
   const remote = useRemote(load);
@@ -34,7 +37,7 @@ export default function LogoMarquee({
   if (items && !items.length) return null;
 
   return (
-    <section id={source} className="scroll-mt-20 overflow-hidden py-24 md:py-32">
+    <section id={source} className="scroll-mt-20 overflow-hidden py-12 md:py-16">
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <SectionHeader index={index} eyebrow={eyebrow} title={title} />
       </div>
@@ -84,6 +87,7 @@ export default function LogoMarquee({
           </ul>
         )}
       </div>
+      {children}
     </section>
   );
 }

@@ -47,6 +47,7 @@ export const headerLinks: HeaderLink[] = [
     children: [
       { key: "customerService", href: site.whatsapp, external: true },
       { key: "jobs", href: "https://tally.so/r/WOx6XR", external: true },
+      { key: "investors", href: `mailto:${site.email}?subject=${encodeURIComponent("Investment inquiry")}`, external: true },
     ],
   },
 ];

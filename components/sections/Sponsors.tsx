@@ -3,9 +3,10 @@ import { sponsors } from "@/lib/content";
 import { type Locale } from "@/lib/i18n";
 import { asset } from "@/lib/site";
 
+/** "Sponsored by" logo row; shown under the partners strip. */
 export default function Sponsors({ locale }: { locale: Locale }) {
   return (
-    <section className="mx-auto max-w-7xl px-4 pt-24 md:px-8">
+    <div className="mx-auto mt-12 max-w-7xl px-4 md:mt-16 md:px-8">
       <p className="mb-8 text-center text-sm font-medium text-muted">{locale === "ar" ? "برعاية" : "Sponsored by"}</p>
       <ul className="flex flex-wrap items-center justify-center gap-6">
         {sponsors.map((src) => (
@@ -14,6 +15,6 @@ export default function Sponsors({ locale }: { locale: Locale }) {
           </li>
         ))}
       </ul>
-    </section>
+    </div>
   );
 }

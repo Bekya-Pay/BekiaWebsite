@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Reveal from "@/components/ui/Reveal";
+import VideoButton from "@/components/ui/VideoButton";
 import { type Locale } from "@/lib/i18n";
 import { site } from "@/lib/site";
 
 export default function AppDownload({ locale, index }: { locale: Locale; index: number }) {
   const ar = locale === "ar";
   return (
-    <section id="download" className="scroll-mt-20 px-4 py-24 md:px-8 md:py-32">
+    <section id="download" className="scroll-mt-20 px-4 py-12 md:px-8 md:py-16">
       <div className="mx-auto grid max-w-7xl items-center gap-10 overflow-hidden rounded-[2rem] bg-accent px-6 pt-14 text-accent-ink md:grid-cols-2 md:px-14 md:pt-0">
         <Reveal className="md:py-20">
           <p className="mb-4 text-sm font-semibold opacity-70">
@@ -28,6 +29,13 @@ export default function AppDownload({ locale, index }: { locale: Locale; index: 
               <Image src="/images/GetOnGooglePlay.png" alt="Get it on Google Play" width={180} height={60} />
             </a>
           </div>
+          <VideoButton
+            src="/videos/app-demo.mp4"
+            poster="/videos/app-demo.jpg"
+            label={ar ? "شوف التطبيق شغال إزاي" : "Watch how the app works"}
+            closeLabel={ar ? "إغلاق" : "Close"}
+            className="mt-6 bg-accent-ink/10 hover:bg-accent-ink/15"
+          />
         </Reveal>
         <Reveal delay={0.15} className="relative aspect-[16/10] self-end md:aspect-[4/3]">
           <Image

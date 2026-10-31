@@ -16,7 +16,7 @@ export default function SectionHeader({
 }) {
   const muted = tone === "dark" ? "text-white/60" : "text-muted";
   return (
-    <Reveal className="mb-12 max-w-3xl md:mb-16">
+    <Reveal className="mb-8 max-w-3xl md:mb-10">
       {(index !== undefined || eyebrow) && (
         <p className={`mb-4 flex items-center gap-3 text-sm font-medium tracking-wide ${muted}`}>
           {index !== undefined && <span className="text-accent">{String(index).padStart(2, "0")}</span>}

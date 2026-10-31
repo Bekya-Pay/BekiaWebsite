@@ -26,6 +26,8 @@
   --font-display: var(--font-lalezar), var(--font-cairo), ui-sans-serif, system-ui, sans-serif;
   --animate-marquee: marquee 40s linear infinite;
   --animate-marquee-rtl: marquee-rtl 40s linear infinite;
+  --animate-marquee-slow: marquee 55s linear infinite;
+  --animate-marquee-rtl-slow: marquee-rtl 55s linear infinite;
 
   @keyframes marquee {
     to { transform: translateX(-50%); }
@@ -59,5 +61,5 @@ h1, h2, h3 {
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .animate-marquee, .animate-marquee-rtl { animation: none; }
+  .animate-marquee, .animate-marquee-rtl, .animate-marquee-slow, .animate-marquee-rtl-slow { animation: none; }
 }

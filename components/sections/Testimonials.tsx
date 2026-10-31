@@ -25,7 +25,7 @@ export default function Testimonials({ locale, index }: { locale: Locale; index:
   };
 
   return (
-    <section className="bg-surface py-24 md:py-32">
+    <section className="bg-surface py-12 md:py-16">
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <div className="flex items-end justify-between gap-6">
           <SectionHeader
@@ -33,7 +33,7 @@ export default function Testimonials({ locale, index }: { locale: Locale; index:
             eyebrow={ar ? "آراء عملائنا" : "Testimonials"}
             title={ar ? "عملاؤنا بيقولوا إيه" : "What our clients say"}
           />
-          <div className="mb-12 hidden gap-2 md:mb-16 md:flex">
+          <div className="mb-8 hidden gap-2 md:mb-10 md:flex">
             <button onClick={() => scroll(-1)} aria-label="Previous" className="grid size-12 place-items-center rounded-full border border-line transition hover:bg-ink hover:text-white">
               <Arrow className="rotate-180 rtl:rotate-0" />
             </button>

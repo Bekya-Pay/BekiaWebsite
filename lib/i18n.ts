@@ -31,6 +31,7 @@ export const ui = {
     whereWeAre: { ar: "أين نحن", en: "Where we are" },
     customerService: { ar: "خدمة العملاء", en: "Customer service" },
     jobs: { ar: "وظائف", en: "Jobs" },
+    investors: { ar: "المستثمرون", en: "Investors" },
     company: { ar: "الشركة", en: "Company" },
   },
   language: { ar: "اللغة", en: "Language" },

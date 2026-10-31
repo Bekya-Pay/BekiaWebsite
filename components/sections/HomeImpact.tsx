@@ -7,7 +7,7 @@ export default function HomeImpact({ locale, index }: { locale: Locale; index: n
   const ar = locale === "ar";
   return (
     <section id="impact" className="scroll-mt-20 bg-dark text-white">
-      <div className="mx-auto max-w-7xl px-4 py-24 md:px-8 md:py-32">
+      <div className="mx-auto max-w-7xl px-4 py-12 md:px-8 md:py-16">
         <SectionHeader
           tone="dark"
           index={index}
